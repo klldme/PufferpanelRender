@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN apt update && apt upgrade -y
 
 # Install necessary packages
-RUN apt install -y systemctl curl sudo npm
+RUN apt install -y systemctl curl sudo npm wget
 
 # Clean npm cache and install Node.js stable version
 RUN sudo npm cache clean -f && sudo npm install -g n && sudo n stable
