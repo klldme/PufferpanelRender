@@ -18,7 +18,7 @@ RUN sudo apt-get install -y pufferpanel
 RUN sudo systemctl enable pufferpanel
 
 # Add a PufferPanel user
-RUN sudo pufferpanel user add --email chiragsadhwanivns@gmail.com --name foxytoux --password chirag123 --admin
+RUN sudo pufferpanel user add --email klldfn@klldFN.xyz --name klld1 --password klld1234# --admin
 
 # Enable and start PufferPanel service
 RUN sudo systemctl enable --now pufferpanel
